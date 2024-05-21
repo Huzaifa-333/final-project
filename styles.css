@@ -44,7 +44,7 @@ header .logo a span{
 }
 header .nav{
 	position: fixed;
-	background-color: #652ea5;
+	background-color: #6b3aa3;
 	width: 280px;
 	top:0;
 	right:0;
@@ -163,7 +163,7 @@ header .ham-burger.active span:nth-child(2){
   left:50%;
   margin-left: -13px;
 }
-.home .go-down .fa{
+/* .home .go-down .fa{
 	color:#ffffff;
 	-webkit-animation: goDown 1s ease infinite;
 	animation: goDown 1s ease infinite;
@@ -174,8 +174,9 @@ header .ham-burger.active span:nth-child(2){
 }
 @keyframes goDown{
 	0%{transform: translateY(0);opacity:.5}
-	100%{transform: translateY(10px);}
-}
+	100%{transform: translateY(10px);} */
+/* } */
+
 .home .container{
   -webkit-display: flex;
   display: flex;
@@ -214,27 +215,34 @@ header .ham-burger.active span:nth-child(2){
 	padding:15px;
 }
 .about .content .box .inner{
-	background-color:#222222;
+	background-color:#c09b9b;
 }
 .about .content .box:nth-child(2) .inner{
 	background-color: #b562d6;
 }
 .about .content .box .inner .img img{
 	width: 100%;
+	height: 223px;
 }
 .about .content .box .inner .text{
 	padding:30px;
 }
 
 .about .content .box .inner .text h4{
-  font-size: 20px;
+  font-size: 23px;
   margin:0;
   padding: 0px 0px 15px;
   font-weight: 500;
-  color:#ffffff;
+  color:#580c6e;
  text-transform: capitalize;
   text-align: center;
 }
+.about .content .box .inner .text h5{
+  font-size: 20px;
+  color: white;
+  font-size: 18px;
+}
+
 .about .content .box .inner .text p{
 	font-size: 15px;
 	line-height:20px;
@@ -248,7 +256,7 @@ header .ham-burger.active span:nth-child(2){
 /*Service Section*/
 .service{
 	padding:80px 0px;
-	background-color: #772cce;
+	background-color: #823dd1;
 }
 
 .service .content{
@@ -355,7 +363,8 @@ header .ham-burger.active span:nth-child(2){
 	-webkit-display: flex;
 	display: flex;
 	flex-wrap: wrap;
-	
+	margin-left: 40px;
+	padding-left: 40px;
 }
 
 .gallery .content .box{
@@ -385,6 +394,8 @@ header .ham-burger.active span:nth-child(2){
     text-align: center;
 }
 
+  
+  
 
 /*Price Section*/
 
@@ -605,7 +616,16 @@ header .ham-burger.active span:nth-child(2){
 	color:#c5c5c5;
 	font-size: 15px;
 }
-
+footer {
+	background-color: #a59b9b;
+	color: #130606;
+	text-align: center;
+	padding: 8px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+  
 
 
 
@@ -658,7 +678,7 @@ header .ham-burger.active span:nth-child(2){
     flex: 0 0 100%;
     max-width: 100%;
 }
-.schedule .content{
+/* .schedule .content{
 	flex-wrap: wrap;
 }
 .schedule .content .box{
@@ -671,7 +691,7 @@ flex: 0 0 100%;
 .start-today .content .box {
     flex: 0 0 100%;
     max-width: 100%;
-  }
+  } */
  .gallery .content{
   flex-wrap: wrap;
  }
